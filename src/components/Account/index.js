@@ -23,7 +23,7 @@ class Account extends Component {
           <div className="membership-container">
             <p style={{marginRight: '20px'}}>Member ship</p>
             <div>
-              <p>saikumarguntoju@gmail.com</p>
+              <p>akhilgone1234@gmail.com</p>
               <p>Password : ***********</p>
             </div>
           </div>
