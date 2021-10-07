@@ -11,17 +11,17 @@ const allMoviesCategory = [
   {
     name: 'Trending',
     url:
-      'https://api.themoviedb.org/3/trending/all/week?api_key=b0c10bd24207804b5bc4163824d992f7',
+      'https://api.themoviedb.org/3/trending/all/week?api_key=aee73d06d456c9c1cbb5e4c4090f6384',
   },
   {
     name: 'Top Rated',
     url:
-      'https://api.themoviedb.org/3/movie/top_rated?api_key=b0c10bd24207804b5bc4163824d992f7&language=en-US',
+      'https://api.themoviedb.org/3/movie/top_rated?api_key=aee73d06d456c9c1cbb5e4c4090f6384&language=en-US',
   },
 
   {
     name: 'Original',
-    url: `https://api.themoviedb.org/3/discover/tv?api_key=b0c10bd24207804b5bc4163824d992f7`,
+    url: `https://api.themoviedb.org/3/discover/tv?api_key=aee73d06d456c9c1cbb5e4c4090f6384`,
   },
 ]
 
@@ -34,7 +34,7 @@ class Home extends Component {
 
   getMovieDetails = async () => {
     const randomNumber = Math.ceil(Math.random() * 20)
-    const MoviesUrl = `https://api.themoviedb.org/3/trending/all/week?api_key=b0c10bd24207804b5bc4163824d992f7`
+    const MoviesUrl = `https://api.themoviedb.org/3/trending/all/week?api_key=aee73d06d456c9c1cbb5e4c4090f6384`
     const requestToken = Cookies.get('request_token')
     const options = {
       method: 'GET',
