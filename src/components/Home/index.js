@@ -85,7 +85,7 @@ class Home extends Component {
     <>
       <div className="home-page-top-section">{this.renderBackdropPoster()}</div>
       {allMoviesCategory.map(category => (
-        <ReactSlider category={category} />
+        <ReactSlider key={category.id} category={category} />
       ))}
       <Footer />
     </>
